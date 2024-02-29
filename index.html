@@ -10,10 +10,52 @@
     <title>Wumbo | Beautiful Design for Social Media Content</title>
     <link rel="icon" type="image/png" href="images/wumbo.png" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header class="bg-primary-light">
+      <div
+        class="max-w-xs tablet:max-w-xl laptop:max-w-4xl desktop:max-w-295 mx-auto flex justify-between items-center h-[50px] py-[66px] font-sans"
+      >
+        <div class="flex gap-[15px] items-center">
+          <img
+            src="/images/wumbo.png"
+            width="50px"
+            height="auto"
+            alt="wumbo logo"
+          />
+          <p class="text-dark text-lg font-bold">Wumbo</p>
+        </div>
+        <nav>
+          <ul class="flex gap-[50px] font-medium text-muted">
+            <li><a href="#top" class="text-dark"> Top </a></li>
+            <li>
+              <a href="#for-everyone" class="hover:text-dark"> For Everyone </a>
+            </li>
+            <li>
+              <a href="#features" class="hover:text-dark"> Features </a>
+            </li>
+            <li>
+              <a href="#preview" class="hover:text-dark"> Preview </a>
+            </li>
+            <li>
+              <a href="#license" class="hover:text-dark"> License </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="#download"
+          role="button"
+          class="px-[25px] py-[10px] bg-muted-light hover:bg-muted text-primary hover:text-muted-light rounded-md"
+        >
+          Download
+        </a>
+      </div>
     </header>
     <main>
       <p>This is main</p>
